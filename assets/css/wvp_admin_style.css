@@ -1,0 +1,84 @@
+.taxonomy-wvp_item_part .column-slug,
+.taxonomy-wvp_item_part .term-slug-wrap,
+.taxonomy-wvp_item_part .column-description,
+.taxonomy-wvp_item_part .term-description-wrap,
+.taxonomy-wvp_background .column-slug,
+.taxonomy-wvp_background .term-slug-wrap,
+.taxonomy-wvp_background .column-description,
+.taxonomy-wvp_background .term-description-wrap {
+	display: none;
+}
+
+.wvp_color_code {
+	width: 95%;
+}
+
+.select_wc_product {
+    height: 98px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 10px 0px;
+}
+
+.wvp_part_name {
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #dedede;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.wvp_part_name > span {
+    margin-right: 5px;
+}
+
+.wvp_part_remove {
+    text-decoration: none;
+}
+
+.wvp_color,
+.wvp_price,
+.wvp_desc,
+.wvp_sub_product,
+.wvp_part_color{
+	width: 100%;
+}
+
+.wvp_sub_product td:nth-child(1),
+.wvp_part_color td:nth-child(1) {
+    width: 30%;
+}
+
+.wvp_sub_product input#part_name,
+.wvp_part_color input#part_name {
+    width: 90%;
+}
+
+.wvp_sub_product select,
+.wvp_part_color select {
+    width: 100%;
+}
+
+th#wvp_bg_image_id {
+    width: 50px;
+}
+
+.mvp_error{
+    color: red;
+}
+
+.post-new-php .wvp_sp_version,
+.post-new-php .wvp_item_parts{
+    display: none;
+}
+
+.select_page_checkbox, .option, .wvp_option {
+    margin-bottom: 10px;
+}
+
+.wvp_options .wvp_sub_item,
+.wvp_options .item-option {
+    display: none;
+}
